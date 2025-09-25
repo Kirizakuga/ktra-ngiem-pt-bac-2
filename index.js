@@ -25,3 +25,8 @@ function solver(){
 }
 
 document.getElementById('solve').addEventListener('click', solver)
+document.getElementById('solve').addEventListener('click', function(){
+    const sound = document.getElementById('sound');
+    sound.currentTime = 0;
+    sound.play();
+});

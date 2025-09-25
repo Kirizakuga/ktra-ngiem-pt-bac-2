@@ -1,0 +1,53 @@
+
+
+body {
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#a, #b, #c{
+  margin-left: 10px;
+  background-color:rgb(209, 211, 212) ;
+
+}
+.kq{
+  background-color: rgb(226, 186, 156);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  border-color: rgb(255, 226, 188);
+}
+.kq:hover {
+  background-color: rgb(225, 166, 120);
+  border-radius: 10px;
+  transform: scale(1.15);
+}
+.container {
+  border-style: groove;
+  border-color: black;
+  border-radius: 10px;
+  background-color: rgb(255, 240, 221);
+  margin-left: 10px;
+  justify-content: center;
+  height: 50vh;
+  width: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+#solve {
+  margin-top: 10px;
+  margin-left: 10px;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+}
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

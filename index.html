@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tinh nghiem cua pt bac 2</title>
     <link rel="stylesheet" href="niga.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form>      
-        <p>nhap a:</p>
-        <input type="number" id="a"> 
-    </form>
-    <form>      
-        <p>nhap b:</p>
-        <input type="number" id="b"> 
-    </form>
-    <form>      
-        <p>nhap c:</p>
-        <input type="number" id="c"> 
-    </form>
-    <button id="solve">nigga</button>
-    <p id ="ketqua" onclick="solver()">
-
-    </p>
+    <div class="container">
+        <form class ="c">      
+            <p>nhap a:</p>
+            <input type="number" id="a"> 
+        </form>
+        <form class = "c">      
+            <p>nhap b:</p>
+            <input type="number" id="b"> 
+        </form>
+        <form class = "c">      
+            <p>nhap c:</p>
+            <input type="number" id="c"> 
+        </form>
+        <button id="solve" class = "kq">SOLVE</button>
+        <p id ="ketqua"></p>
+        <audio id= "sound" preload="auto">
+            <source src="clicks.mp3" type = "audio/mpeg">
+        </audio>
+    </div>
+    
 
     <script src = "index.js"></script>
 </body>
